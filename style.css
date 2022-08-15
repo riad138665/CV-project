@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: rgb(211, 134, 35);
+}
+.container{
+    width: 1100px;
+
+    background-color: rgb(2, 250, 188);
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+header{
+
+}
+.profle{
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left
+}
+.header-bio{
+    padding: 30px;
+    float: left
+    
+}
+h1{
+    color: black;
+}
+h2{
+    color: rgb(255, 72, 0);
+}
+h3{
+    color: rgb(38, 0, 255);
+}
+h4,b{
+    color:rgb(55, 0, 255);
+}
+
+.header-contact{
+    float: right;
+    margin-top: 30px;
+
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+   
+    
+}
+.header-contact a:hover{
+   text-decoration: underline;
+   color: red;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border:solid #000;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom:none ;
+}
+.personal-section{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.content-hr{
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 100%;
+    
+}
+li{
+    list-style-type: none;
+}
+.e-div1{
+    width: 50%;
+    float: left;
+}
+.e-div2{
+    width: 50%;
+    float: left;
+}
+
+.bottom-container{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
+.bottom-container a{
+    font-size: 18px;
+    padding: 8px 16px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    text-decoration: overline;
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
+.bottom-container p{
+    color: white;
+    margin: 20px;
+}
